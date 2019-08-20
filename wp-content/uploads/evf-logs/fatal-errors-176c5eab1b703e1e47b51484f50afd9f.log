@@ -1,0 +1,11 @@
+2019-08-20T05:14:51+00:00 CRITICAL Maximum execution time of 60 seconds exceeded
+
+2019-08-20T05:17:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_day_link(), 1 passed in C:\wamp64\www\Lensrealty\wp-content\themes\cenote\inc\compatibility\class-breadcrumb-trail.php on line 784 and exactly 3 expected in C:\wamp64\www\Lensrealty\wp-includes\link-template.php:546
+Stack trace:
+#0 C:\wamp64\www\Lensrealty\wp-content\themes\cenote\inc\compatibility\class-breadcrumb-trail.php(784): get_day_link('2018')
+#1 C:\wamp64\www\Lensrealty\wp-content\themes\cenote\inc\compatibility\class-breadcrumb-trail.php(350): Breadcrumb_Trail->add_day_archive_items()
+#2 C:\wamp64\www\Lensrealty\wp-content\themes\cenote\inc\compatibility\class-breadcrumb-trail.php(151): Breadcrumb_Trail->add_items()
+#3 C:\wamp64\www\Lensrealty\wp-content\themes\cenote\inc\compatibility\class-breadcrumb-trail.php(39): Breadcrumb_Trail->__construct(Array)
+#4 C:\wamp64\www\Lensrealty\wp-content\themes\cenote\template-parts\breadcrumb\breadcrumb-trail.php(21): breadcrumb_trail(Array)
+#5 C:\wamp64\www\Lensrealty\wp-includes\template.php(724):
+
